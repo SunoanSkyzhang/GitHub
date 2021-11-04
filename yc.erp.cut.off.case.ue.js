@@ -7,6 +7,7 @@ define(["N/search", "N/record","N/runtime", "../common/core"],
         const beforeLoad = (scriptContext) => {
         }
         const beforeSubmit = (scriptContext) => {
+            aaa
             var type = scriptContext.type
             var newRec = scriptContext.newRecord
             if(type == 'create'){
